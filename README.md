@@ -25,3 +25,22 @@ Run the cell where the two classes Graph and Node are defined before running the
 This script runs the Djikstra's algorithm on the given Graph and gives the shortest path between the source and destination. 
 You can give a part of the station name and choose one of the stations which has that substring in its name. 
 Changing group size gives an alternative path based on the number of docking stations at the intermediary stations, returning an error if such a route is not possible.
+
+
+## Outputs
+<img width="790" alt="mst_no_labels" src="https://user-images.githubusercontent.com/31932749/184040974-e5bc6c3b-1021-4b1a-980e-37a10181f2a2.png">
+Minimum Spanning Tree on the graph, with no labels
+
+
+![mst_with_labels](https://user-images.githubusercontent.com/31932749/184041026-e3b04974-b24a-46ac-9eca-e41a2f538ebb.png)
+Minimum Spanning Tree on the graph, with label
+
+
+![Djikstra's path](https://user-images.githubusercontent.com/31932749/184041047-2e1e7c61-87f3-464b-8915-9c1f26436140.png)
+Shortest path from Djikstra's algorithm
+
+
+![Djikstra's path larger group size](https://user-images.githubusercontent.com/31932749/184041075-65d3e41f-69c6-4d1f-ac03-12974d030377.png)
+Shortest path from Djikstra's algorithm with a larger group
+
+
