@@ -1,4 +1,6 @@
 # CS5800-Final-Project
+** Eshwari Bhide, Joanna Ng, Raajas Tongaonkar**
+
 Repo for the final project of Summer '22 CS5800 class
 
 
