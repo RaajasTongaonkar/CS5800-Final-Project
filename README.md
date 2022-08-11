@@ -12,14 +12,17 @@ This creates the submap and graph from the dataset. Upload the Blue_Bike_Station
 First it preprocesses the data and then creates edges between all remaining nodes. Then, the edges above the threshold value are dropped. The remaining edges and nodes then form the adjacency matrix. Two user-defined classes are created and used for ease of functioning later, Graph and Node.
 
 ## Running Prim's algorithm
-### File to run - 
-### File to upload
+### File to run - MST_Prim.py
+### File to upload - Graph g.pkl
 
+This script runs Prim's algorithm to create the MST on the given Graph g which would be loaded in Graph and Node classes.
+The graph that would be plotted contains labels of the station names and distances between two stations.
+It also prints the total distance of the MST that connects all of the Boston Bluebikes stations.
 
 
 ## Running Djikstra's algorithm
 ### File to run - CS5800_final_project_djikstra's_implementation.ipynb
-### Files to upload - Dataframe.pkl, Graph.pkl
+### Files to upload - Dataframe.pkl, Graph g.pkl
 
 Run the cell where the two classes Graph and Node are defined before running the code to load the dataframe and the graph.
 This script runs the Djikstra's algorithm on the given Graph and gives the shortest path between the source and destination. 
